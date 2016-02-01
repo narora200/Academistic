@@ -1,0 +1,75 @@
+body{ font-family: Open Sans;}
+    	.bg{		 
+			width:100%;
+			position:relative; 
+			z-index:1; background:url(../img/bg.jpg) no-repeat;
+		  }
+    #subjectsearch { border:solid 1px #ccc; padding:10px; font-size:14px; }
+    #subjectresult,#subjectresultt {position:absolute; z-index:9999; padding:10px;display:none; font-size:5px;
+					margin-top:-1px; border-top:0px;overflow:hidden; border:1px #CCC solid;
+					background-color: white;  }
+    .show {     padding: 6px;
+    border-bottom: 1px #999 dashed;
+    font-size: 12px;
+    height: 33px;
+    width: 100%; }
+	#instituteresult, #instituteresultt{position:absolute; z-index:9999; padding:10px; font-size:5px; display:none; margin-top:33px; 
+					 border-top:0px;overflow:hidden; 	border:1px #CCC solid;  
+					 background-color: white; width:81.6%;}
+    .show:hover {background:#4c66a4; color:#FFF;  cursor:pointer;  }
+	
+	#locationsearch { padding:10px; font-size:14px; }
+    #locationresult ,#locationresultt, #levelresult, #levelresultt { position:absolute; z-index:9999; padding:10px; font-size:5px; display:none; margin-top:-1px; 
+					 border-top:0px;overflow:hidden; 	border:1px #CCC solid;  
+					 background-color: white;  }
+	input{ text-align:center;  }
+	a{ color:#fafafa;}
+
+
+
+
+
+
+button{outline:none;}
+.nav-tabs{border:none;}
+.nav_tabs ul li{background:#333; opacity:0.8; border-radius:5px 5px 1px 1px; margin-left:5px;}
+.nav_tabs>li.active>a, .nav_tabs>li.active>a:focus, .nav_tabs>li.active>a:hover {
+    color:#FFF;
+    cursor: default;
+    background-color:#fff;
+	opacity:0.5;
+    border: 1px solid #666;
+	border-radius:5px 5px 1px 1px;
+    border-bottom-color: transparent;
+}
+.search_div{border-radius:3px; background-color:#CCC; opacity:0.8; padding:20px;}
+.padding_level{padding-top:5px;}
+
+
+
+.position_tab{
+position:relative;
+
+
+}
+
+.position_hand{
+position:absolute; bottom:140px; left:280px;
+animation-name: animatehand;
+animation-duration: 2s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease;
+
+
+}
+
+@keyframes animatehand{
+
+0% {position:absolute; bottom:140px; left:280px;}
+33% {bottom:132px; left:280px;}
+66% {bottom:123px; left:280px;}
+100% {bottom:115px; left:280px;}
+
+}
